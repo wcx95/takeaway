@@ -1,0 +1,11 @@
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  }
+@mixin subinfo {
+  font-size: 11px;
+  color: #858687;
+  line-height: 14px;
+  font-weight: 400
+}
